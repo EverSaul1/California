@@ -7,7 +7,7 @@ function nelson($texto){
 	}
 }
 function dameURL(){
-	$url="https://".$_SERVER['bufetehotel.herokuapp.com'];
+	$url="https://".$_SERVER['HTTP_HOST'];
 	return $url;
 }
 function insumo_existencia($insumo,$sucursal,$tipo){
