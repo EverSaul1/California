@@ -4,4 +4,5 @@
 	$_SESSION['tipo_user']=NULL;
 	$_SESSION['cod_user']=NULL;
 	header('Location:index.php');
+	
 ?>
