@@ -7,7 +7,7 @@ function nelson($texto){
 	}
 }
 function dameURL(){
-	$url="http://".$_SERVER['HTTP_HOST'];
+	$url="https://".$_SERVER['HTTP_HOST'];
 	return $url;
 }
 function insumo_existencia($insumo,$sucursal,$tipo){
