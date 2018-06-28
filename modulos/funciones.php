@@ -4,10 +4,10 @@ function nelson($texto){
 		return 'Contado';
 	}elseif($texto=='Credito'){
 		return 'Credito';
-	}
+	}	
 }
 function dameURL(){
-	$url="https://".$_SERVER['https://bufetehotel.herokuapp.com/'];
+	$url="https://".$_SERVER['https://bufetehotel.herokuapp.com'];
 	return $url;
 }
 function insumo_existencia($insumo,$sucursal,$tipo){
